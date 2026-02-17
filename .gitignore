@@ -1,6 +1,18 @@
-# Ignore everything
-*
+# Python cache
+__pycache__/
+*.pyc
 
-# Allow README
-!README.md
-!.gitignore
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training artifacts (optional – keep if you really want EVERYTHING)
+# runs/
+# results/
+
+# Logs
+*.log
